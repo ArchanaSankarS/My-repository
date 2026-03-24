@@ -1,0 +1,1 @@
+"I created this project to practice my HTML5 skills. It features a professional resume layout using tables for data and forms for contact details. This project helped me learn how to write clean code and structure a website properly. It is the first milestone in my web development journey."
