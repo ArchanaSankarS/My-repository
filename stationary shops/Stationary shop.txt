@@ -1,0 +1,5 @@
+In this project , 
+I built a simple and colorful Stationary Shop website to show products like pens, books, and art supplies.
+ In this project, I learned how to add a video background using the <video> tag and used z-index to make sure the text stays clearly on top of the video.
+ I practiced CSS Positioning to place images exactly where I wanted them on the page. To make the text look professional, I used shadows and spacing so it's easy to read.
+ I organized the content into different sections like 'Pens' and 'Art Crafts' to keep everything neat. This project helped me understand how to use both images and videos to create a good-looking website."
