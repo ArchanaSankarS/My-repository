@@ -1,0 +1,144 @@
+<html>
+<head>
+<style>
+
+.jobs-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.job {
+    box-shadow: 0 4px 15px rgba(2, 48, 71, 0.1);
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    border-radius: 10px;
+    background: #fff;
+    border: 1px solid #eee;
+    transition: all 400ms ease;
+}
+
+#i1 {
+    height: 120px;      
+    width: 100%;        
+    object-fit: cover;  
+    border-radius: 5px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.job-title {
+    font-size: 18px;
+    margin: 0;
+    color: #023047;
+    font-weight: bold;
+}
+
+.details {
+    margin-top: 5px;
+    font-size: 13px;
+    color: #333;
+    line-height: 1.5;
+    flex: 1;
+}
+
+
+.details-btn {
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+    margin-top: 15px;
+    background-color: green;
+    color: white !important;  
+    text-decoration: none;  
+    border-radius: 5px;      
+    font-weight: bold;
+}
+
+.details-btn:hover {
+    background-color:#023047;
+}
+
+
+
+@media (max-width: 768px) {
+    .jobs-container { grid-template-columns: 1fr; }
+}
+</style>
+</head>
+
+<body>
+
+<div class="jobs-container"> <div class="job">
+        <img id="i1" src="jobportal/software engineer.jpg">
+        <h3 class="job-title">Software Engineer</h3>
+        <div class="details">
+            <b>Skills:</b> Java, Python, React <br>
+            <b>Experience:</b> 0 - 2 years <br>
+            <b>Location:</b> Bangalore
+        </div>
+        <a href="application.html" class="details-btn">Apply Now</button></a>
+    </div>
+
+    <div class="job">
+        <img id="i1" src="jobportal/data scientist.webp">
+        <h3 class="job-title">Data Scientist</h3>
+        <div class="details">
+            <b>Skills:</b> Machine Learning, SQL, R <br>
+            <b>Salary:</b> 5 - 8 LPA <br>
+            <b>Location:</b> Chennai
+        </div>
+        <a href="application.html" class="details-btn">Apply Now</a>
+    </div>
+
+    <div class="job">
+        <img id="i1" src="jobportal/project manager.png">
+        <h3 class="job-title">Project Manager</h3>
+        <div class="details">
+            <b>Skills:</b> Agile, Scrum, Leadership <br>
+            <b>Experience:</b> 5+ years <br>
+            <b>Location:</b> Hyderabad
+        </div>
+        <a href="application.html" class="details-btn">Apply Now</a>
+    </div>
+
+    <div class="job">
+        <img id="i1" src="jobportal/product manager.jpg">
+        <h3 class="job-title">Product Manager</h3>
+        <div class="details">
+            <b>Focus:</b> Product Roadmap <br>
+            <b>Salary:</b> 10 - 15 LPA <br>
+            <b>Location:</b> Remote
+        </div>
+        <a href="application.html" class="details-btn">Apply Now</a>
+    </div>
+
+    <div class="job">
+        <img id="i1" src="jobportal/sales representative.png">
+        <h3 class="job-title">Sales Representative</h3>
+        <div class="details">
+            <b>Target:</b> B2B Sales <br>
+            <b>Skills:</b> Communication, CRM <br>
+            <b>Location:</b> Coimbatore
+        </div>
+        <a href="application.html" class="details-btn">Apply Now</a>
+    </div>
+
+    <div class="job">
+        <img id="i1" src="jobportal/marketing manager.png">
+        <h3 class="job-title">Marketing Manager</h3>
+        <div class="details">
+            <b>Channels:</b> SEO, SEM <br>
+            <b>Experience:</b> 3 - 5 years <br>
+            <b>Location:</b> Mumbai
+        </div>
+        <a href="application.html" class="details-btn">Apply Now</a>
+    </div>
+
+</div> </body>
+</html>
+

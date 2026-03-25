@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CALCULATOR</title>
+<link rel="stylesheet" href="stylecalci.css">
+    </head>
+    
+    <body>
+      <div id="d1"> 
+    <h1>  CALCULATOR</h1></div>
+        <div class="calculator">
+            <input type="text" class="display" id="display" disabled>
+            <div class="buttons">
+<div>   
+                <button class="allclr" onclick="clearDisplay()">C</button>
+                <button class="delete" onclick="deleteLast()">DEL</button>
+                <button class="bracket" onclick="appendToDisplay('()')">()</button>
+
+               <button class="buttons" onclick="appendToDisplay('/')">/</button> 
+              
+             </div>
+
+<div>  
+                <button class="btn operator" onclick="appendToDisplay('7')">7</button>
+                <button class="btn operator" onclick="appendToDisplay('8')">8</button>
+                <button class="btn operator" onclick="appendToDisplay('9')">9</button>
+   <button class="buttons" onclick="appendToDisplay('*')">*</button>
+   
+</div> 
+
+
+<div>
+
+
+  <button class="btn operator" onclick="appendToDisplay('6')">6</button>
+                <button class="btn operator" onclick="appendToDisplay('5')">5</button>
+                <button class="btn operator" onclick="appendToDisplay('4')">4</button>
+                <button class="buttons" onclick="appendToDisplay('-')">-</button>
+                
+              </div>
+
+<div>  
+ <button class="btn operator" onclick="appendToDisplay('3')">3</button>
+                <button class="btn operator" onclick="appendToDisplay('2')">2</button>
+                <button class="btn operator" onclick="appendToDisplay('1')">1</button>
+                <button class="buttons" onclick="appendToDisplay('+')">+</button>
+                
+               </div>
+
+<div> 
+   <button class="btn operators" onclick="appendToDisplay('/')">/</button>
+                <button class="btn operator" onclick="appendToDisplay('0')">0</button>
+                <button class="btn operator" onclick="appendToDisplay('.')">.</button>
+               
+                  <button class="buton" onclick="calculate()">=</button>
+             </div>
+
+</div>
+            
+ <script src="calci.js"></script>
+    </body>
+</html>
