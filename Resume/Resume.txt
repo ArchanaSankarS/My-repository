@@ -1,0 +1,7 @@
+This is a simple Resume project created as part of my Front-End Development course using only HTML. 
+
+In this project, I built a basic resume webpage structure that includes personal details, education, skills, and contact information using core HTML elements such as headings, paragraphs, lists, images, and forms.
+
+Through this task, I learned how to properly use HTML tags, structure a webpage, add images, and create basic forms. 
+
+This project helped me understand the foundation of web development and how real-world resume pages are structured, which can later be improved using CSS for styling and JavaScript for interactivity in real projects.
