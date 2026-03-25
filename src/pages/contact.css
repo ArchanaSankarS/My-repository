@@ -1,0 +1,153 @@
+
+.contact-page {
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+  background: linear-gradient(-45deg, #f0f9ff, #faf5ff, #fdf2f8, #f0fdf4);
+}
+
+
+.contact-card {
+  background: rgba(255, 255, 255, 0.98);
+  padding: 40px;
+  border-radius: 24px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4);
+  width: 100%;
+  max-width: 700px; 
+  transition: all 0.5s ease-in-out;
+}
+
+.contact-card.owner-view {
+
+  max-width: 850px;
+}
+
+.toggle-container {
+  display: flex;
+  background: #f1f5f9;
+  padding: 6px;
+  border-radius: 14px;
+  margin-bottom: 25px;
+  gap: 5px;
+}
+
+.toggle-btn {
+  flex: 1;
+  padding: 12px;
+  border: none;
+  background: transparent;
+  color: #64748b;
+  cursor: pointer;
+  font-weight: 700;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.toggle-btn.active {
+  background: #083e77;
+  color: white;
+}
+
+
+.form-section h2 {
+  color: #083e77;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.form-group label {
+  display: block;
+  font-weight: 700;
+  color: #334155;
+  margin-bottom: 5px;
+}
+
+.form-group input, 
+.form-group textarea {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #cbd5e1;
+  outline: none;
+}
+
+.send-btn {
+  width: 100%;
+  padding: 14px;
+  background: #083e77;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+
+.owner-full-page {
+  display: flex;
+  flex-direction: column; 
+  gap: 30px;
+  animation: fadeIn 0.5s ease;
+}
+
+.info-box {
+  background: #f0f7ff;
+  padding: 30px;
+  border-radius: 15px;
+  border: 1px solid #dbeafe;
+}
+
+.contact-help p {
+  color: #083e77;
+  font-size: 1.6rem;
+  font-weight: 800;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.address-section {
+  text-align: center;
+  margin-bottom: 20px;
+  padding-bottom: 15px;
+  border-bottom: 1px dashed #083e77;
+}
+
+.details-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 20px;
+  text-align: center;
+}
+
+.detail-item strong {
+  display: block;
+  color: #083e77;
+  font-size: 0.9rem;
+}
+
+.detail-item p {
+  margin: 5px 0 0;
+  color: #333;
+  font-size: 0.85rem;
+}
+
+
+.map-section {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.map-section h3 {
+  color: #083e77;
+  text-align: center;
+  margin-bottom: 15px;
+}
+

@@ -1,0 +1,43 @@
+.form-container{
+    background: linear-gradient(-45deg, #f0f9ff, #faf5ff, #fdf2f8, #f0fdf4);
+    height: 83vh;
+}
+
+.application-form-container {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 30px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background: #f9f9f9;
+   background: linear-gradient(-45deg, #f0f9ff, #faf5ff, #fdf2f8, #f0fdf4);
+}
+.application-form-container h2{
+  color: #0056b3;
+  text-align: center;
+}
+.application-form label {
+  display: block;
+  margin-bottom: 20px;
+ 
+}
+
+.application-form input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  box-sizing: border-box;
+}
+
+.application-form button {
+  background: #007bff;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.application-form button:hover {
+  background: #0056b3;
+}
