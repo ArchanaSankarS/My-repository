@@ -1,0 +1,15 @@
+This project is a *Home Appliances E-Commerce Website* built using HTML and CSS.
+
+ It is designed to showcase different categories of home appliances such as kitchen appliances, electronics, furniture, and laundry machines in a structured and user-friendly way.
+
+In this project, I created multiple web pages including a main home page and separate category pages.
+
+ Each page displays products using images, headings, and pricing information in a clean layout. 
+
+I used CSS for styling, including text shadows, colors, borders, grid layouts, and responsive design concepts to improve the visual appearance of the website.
+
+Through this project, I learned how to design multi-page websites and organize content in a structured format.
+
+ I also gained experience in using CSS grid, image styling, navigation linking between pages, and basic UI design principles.
+
+ This project helped me understand how an e-commerce website structure works and improved my frontend development skills using HTML and CSS.
