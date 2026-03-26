@@ -1,7 +1,15 @@
-This is a simple *Job Portal Web Application* built using HTML, CSS, Bootstrap, and JavaScript. The main goal of this project is to understand how a basic job search platform works and to improve my frontend development skills.
+This is a simple *Job Portal Web Application* built using HTML, CSS, Bootstrap, and JavaScript.
 
-In this project, I designed multiple pages including a homepage, job vacancies page, company listings, login, signup, and an application form. I used HTML for structure, CSS for styling, and Bootstrap for responsive design. JavaScript is used for basic navigation and form handling.
+The main goal of this project is to understand how a basic job search platform works and to improve my frontend development skills.
 
-Through this project, I learned how to create multi-page websites, design layouts using CSS grid and flexbox, and build user-friendly interfaces. I also gained experience in working with forms, buttons, navigation menus, and image-based UI design.
+In this project, I designed multiple pages including a homepage, job vacancies page, company listings, login, signup, and an application form.
 
-Overall, this project helped me understand real-world website structure and improved my skills in frontend development. It strengthened my knowledge in HTML, CSS, and basic JavaScript, and gave me confidence to build more interactive web applications in the future.
+I used HTML for structure, CSS for styling, and Bootstrap for responsive design. JavaScript is used for basic navigation and form handling.
+
+Through this project, I learned how to create multi-page websites, design layouts using CSS grid and flexbox, and build user-friendly interfaces.
+
+I also gained experience in working with forms, buttons, navigation menus, and image-based UI design.
+
+Overall, this project helped me understand real-world website structure and improved my skills in frontend development.
+
+It strengthened my knowledge in HTML, CSS, and basic JavaScript, and gave me confidence to build more interactive web applications in the future.
