@@ -1,12 +1,15 @@
+
 .form-container{
     background: linear-gradient(-45deg, #f0f9ff, #faf5ff, #fdf2f8, #f0fdf4);
-    height: 83vh;
+    height: 82vh;
+    
+    
 }
 
 .application-form-container {
-  max-width: 500px;
-  margin: 40px auto;
-  padding: 30px;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 70px;
   border: 1px solid #ddd;
   border-radius: 8px;
   background: #f9f9f9;
@@ -24,10 +27,17 @@
 
 .application-form input {
   width: 100%;
-  padding: 8px;
-  margin-top: 5px;
+  padding: 10px;
+  margin-top: 20px;
   box-sizing: border-box;
 }
+.button-group {
+  display: flex;
+  justify-content: space-between; 
+  margin-top: 30px; 
+  
+}
+
 
 .application-form button {
   background: #007bff;

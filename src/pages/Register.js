@@ -27,18 +27,18 @@ const Register = () => {
           {role === 'jobseeker' ? (
       
             <>
-              <input type="text" placeholder="Full Name" required />
-              <input type="text" placeholder="School Name" required />
-              <input type="text" placeholder="Degree (e.g. BE, BSC)" required />
-              <textarea placeholder="Other Details (Skills, Experience)"></textarea>
+              <input type="text" placeholder="Full Name" required /> <br></br>
+              <input type="text" placeholder="School Name" required /> <br></br>
+              <input type="text" placeholder="Degree (e.g. BE, BSC)" required /> <br></br>
+              <textarea placeholder="Other Details (Skills, Experience)"></textarea> <br></br>
             </>
           ) : (
          
             <>
-              <input type="text" placeholder="Company Name" required />
-              <input type="text" placeholder="Company Website" required />
-              <input type="email" placeholder="Official Email" required />
-              <textarea placeholder="Company Address / Description"></textarea>
+              <input type="text" placeholder="Company Name" required /> <br></br>
+              <input type="text" placeholder="Company Website" required /><br></br>
+              <input type="email" placeholder="Official Email" required /><br></br>
+              <textarea placeholder="Company Address / Description"></textarea><br></br>
             </>
           )}
           
