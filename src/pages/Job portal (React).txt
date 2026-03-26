@@ -1,0 +1,17 @@
+JobZ is a modern Job Portal Web Application created as my final Frontend Capstone Project after completing my frontend course.
+
+ The platform effectively connects job seekers with employers through a clean, organized interface. 
+
+Using React Router, I built a seamless navigation system for the Home, About, Jobs, and Recruiter sections without any page reloads.
+
+A key feature is the Role-Based Login system developed using React Hooks (useState, useEffect) and LocalStorage. 
+
+Users can log in as a 'Job Seeker' to browse the Job Board, view specific details (Salary, Location, Experience), and submit an Application Form with their resume.
+
+ Alternatively, users can log in as a 'Recruiter' to access a specialized Dashboard for posting new job vacancies.
+
+The application also includes an interactive About Page and a unique Contact Page with a toggle feature to switch between a message form and official contact details, including an integrated Google Map. 
+
+I used Modern CSS (Flexbox and Grid) to ensure the design is fully responsive across mobiles, tablets, and laptops.
+
+ This Frontend-only project successfully demonstrates my skills in building complex, professional-standard UI/UX using React.js.
