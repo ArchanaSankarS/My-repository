@@ -1,17 +1,70 @@
-JobZ is a modern Job Portal Web Application created as my final Frontend Capstone Project after completing my frontend course.
+PROJECT: JobZ - MODERN JOB PORTAL
+(Final Frontend Capstone Project)
+JobZ is a high-performance React.js application designed to connect Job Seekers and Recruiters through a seamless, Single Page Experience.
 
- The platform effectively connects job seekers with employers through a clean, organized interface. 
 
-Using React Router, I built a seamless navigation system for the Home, About, Jobs, and Recruiter sections without any page reloads.
+ DEMO LOGIN CREDENTIALS:
 
-A key feature is the Role-Based Login system developed using React Hooks (useState, useEffect) and LocalStorage. 
 
-Users can log in as a 'Job Seeker' to browse the Job Board, view specific details (Salary, Location, Experience), and submit an Application Form with their resume.
+Use these pre-configured accounts to test the role-based features of the application:
 
- Alternatively, users can log in as a 'Recruiter' to access a specialized Dashboard for posting new job vacancies.
+1. Job Seeker (Candidate)
+Email: seeker@test.com
 
-The application also includes an interactive About Page and a unique Contact Page with a toggle feature to switch between a message form and official contact details, including an integrated Google Map. 
+Password: seeker12
 
-I used Modern CSS (Flexbox and Grid) to ensure the design is fully responsive across mobiles, tablets, and laptops.
+Access: Browse 12+ Jobs, view job details, and submit Application Forms.
 
- This Frontend-only project successfully demonstrates my skills in building complex, professional-standard UI/UX using React.js.
+Redirect Logic: Automatically routes to the Job Board upon login.
+
+2. Recruiter (Employer)
+Email: recruiter@test.com
+
+Password: admin12
+
+Access: Employer Dashboard to post and manage new job vacancies.
+
+Redirect Logic: Automatically routes to the Recruiter Dashboard upon login.
+
+
+PROJECT MOTIVATION :
+
+Dual-Role Logic: Managing two different interfaces (Seeker vs. Recruiter) within one app.
+
+Complex Workflow: Handling multi-step forms, resume uploads, and user sessions.
+
+Real-World Architecture: Building a complete journey from job browsing to final application.
+
+
+
+ TECHNICAL HIGHLIGHTS :
+
+React Router v6: Smooth navigation without page reloads (SPA).
+
+Role-Based Auth: Automatic redirection based on user login type.
+
+Data Persistence: Uses LocalStorage to keep users logged in after a page refresh.
+
+Dynamic UI: Used .map() to render 12+ tech jobs dynamically with live data.
+
+Responsive Design: Fully optimized for Mobile, Tablet, and Desktop.
+
+
+
+DESIGN & UI EXCELLENCE :
+
+Shine Animation: Custom CSS @keyframes for premium, high-end text effects.
+
+Interactive Toggle: A switchable UI in the Contact section between a Form and Google Maps.
+
+Modern Layout: Engineered with CSS Grid and Flexbox for a sharp, clean look.
+
+
+
+ KEY LEARNINGS :
+
+Authentication: Successfully implementing Role-Based Access Control (RBAC).
+
+Modular Code: Organizing the project into reusable React components for scalability.
+
+Problem Solving: Managing complex navigation logic and persistent user states.
